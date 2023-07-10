@@ -104,6 +104,7 @@ Chatglm-6B微调官方文档: [https://github.com/THUDM/ChatGLM-6B/blob/main/ptu
 PRE_SEQ_LEN=128
 LR=2e-2
 
+# CUDA_VISIBLE_DEVICES=0 python3 main.py \
 CUDA_VISIBLE_DEVICES=1 python3 main.py \
     --do_train \
     --train_file AdvertiseGen/train.json \
