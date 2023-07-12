@@ -1,6 +1,9 @@
 # AIGC2023
 
 🔊 本仓库为2023年夏季学期AIGC课程创建，内含实验所需部分资料
+🤖 时间安排
+- 第一次实验课7月16日晚上
+- 第二次实验课7月23日晚上
 
 ***
 
@@ -8,7 +11,7 @@
 
 🔉 实验要求：
 1. 完成Github Copilot工具的前期准备，获得Copilot工具使用权限，配置工具扩展
-2. 熟悉Github Copilot工具使用，体会Prompt构造的方法，使用Copilot工具进行数据处理，得到用于Chatglm-6B微调的数据
+2. 熟悉Github Copilot工具使用，体会Prompt构造的方法，使用Copilot工具编写一个2048游戏
 
 ### 前期准备
 
@@ -57,7 +60,7 @@ Github Copilot官方网站（含文档）: [https://github.com/features/copilot]
 
 🔉 实验要求：
 1. 完成Chatglm-6B模型环境的配置，模型的本地部署，并通过命令行/web/api调用本地模型
-2. 了解Chatglm-6B模型微调所需数据的形式，模型微调的流程，使用Copilot工具获取的数据对模型进行P-Tuning/Fine-Tuning微调
+3. 了解Chatglm-6B模型微调所需数据的形式，模型微调的流程，使用Copilot工具爬取或生成微调数据数据，对模型进行P-Tuning/Fine-Tuning微调
 
 ### 前期准备
 
