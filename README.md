@@ -103,6 +103,8 @@ snapshot_download(repo_id="THUDM/chatglm-6b", local_dir="./chatglm-6b/")
 
 数据网址：[https://genbaike.com/](https://genbaike.com/)
 
+可能用到的爬虫教程：[https://mofanpy.com/tutorials/data-manipulation/scraping/](https://mofanpy.com/tutorials/data-manipulation/scraping/)
+
 使用Copilot工具爬取数据，爬取的数据格式如下
 
 模型微调的数据示例（json格式）：
