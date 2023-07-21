@@ -3,7 +3,7 @@
 🔊 本仓库为2023年夏季学期AIGC课程创建，内含实验所需部分资料
 🤖 时间安排
 - 第一次实验课7月16日晚上
-- 第二次实验课7月23日晚上
+- 第二次实验课7月22日上午，实验结果展示7月23日
 
 ***
 
@@ -59,8 +59,9 @@ Github Copilot官方网站（含文档）: [https://github.com/features/copilot]
 ## 💬 Chatglm-6B
 
 🔉 实验要求：
-1. 完成Chatglm-6B模型环境的配置，模型的本地部署，并通过命令行/web/api调用本地模型
-3. 了解Chatglm-6B模型微调所需数据的形式，模型微调的流程，使用Copilot工具爬取或生成微调数据数据，对模型进行P-Tuning/Fine-Tuning微调
+1. 完成Chatglm-6B模型环境的配置，模型的本地部署，并通过命令行/web/api调用本地模型，下面任务二选一
+2. 了解Chatglm-6B模型微调所需数据的形式，模型微调的流程，使用Copilot工具爬取或生成微调数据数据，对模型进行P-Tuning/Fine-Tuning微调
+3. 了解LangChain工作机制，使用Copilot工具爬取或生成微调数据数据，对模型使用LangChain机制外挂知识库
 
 ### 前期准备
 
@@ -165,3 +166,7 @@ deepspeed --include="localhost:1" --master_port $MASTER_PORT main.py \
     --learning_rate $LR \
     --fp16
 ```
+
+### LangChain
+
+Langchain-ChatGLM官方文档：[https://github.com/imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)
