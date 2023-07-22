@@ -145,6 +145,8 @@ LangChain的数据示例（txt格式）：
 
 Chatglm-6B微调官方文档: [https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README.md](https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README.md)
 
+InstructGLM指令微调文档：[https://github.com/yanqiangmiffy/InstructGLM](https://github.com/yanqiangmiffy/InstructGLM)
+
 为合理利用gpu资源，建议使用单卡进行模型微调，操作如下：
 ​
 指定`gpu:1`进行P-Tuning微调，将`train.sh`中的`CUDA_VISIBLE_DEVICES=0`改为`CUDA_VISIBLE_DEVICES=1`，执行`bash train.sh`即可开始微调，微调完成后会在`./ChatGLM-6B/ptuning/`路径下生成微调模型
