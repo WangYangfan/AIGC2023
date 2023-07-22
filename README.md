@@ -105,6 +105,18 @@ snapshot_download(repo_id="THUDM/chatglm-6b", local_dir="./chatglm-6b/")
 
 可能用到的爬虫教程：[https://mofanpy.com/tutorials/data-manipulation/scraping/](https://mofanpy.com/tutorials/data-manipulation/scraping/)
 
+建议使用xpath解析网页，xpath教程：[https://www.runoob.com/xpath/xpath-tutorial.html](https://www.runoob.com/xpath/xpath-tutorial.html)
+```python
+# 爬取数据可以使用requests库
+import requests
+resp = requests.get(url, timeout=10)
+# 解析HTML可以使用lxml库
+from lxml import etree
+html = etree.HTML(resp.text)
+# 使用xpath寻找具体的文字，如标题：
+question = html.xpath("//div[@class='da-title']/h2/text()")
+```
+
 使用Copilot工具爬取数据，爬取的数据格式如下
 
 模型微调的数据示例（json格式）：
